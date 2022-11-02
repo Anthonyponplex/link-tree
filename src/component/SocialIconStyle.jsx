@@ -12,7 +12,7 @@ export const SocialIconContainer = styled.div`
   padding: 0px;
   gap: 24px;
 
-  width: 1152px;
+  width: 100%;
   height: 24px;
 
   /* Inside auto layout */

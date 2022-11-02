@@ -1,20 +1,18 @@
 import styled from "styled-components";
 
 export const LinkContainer = styled.p`
-  /* Frame 5 */
-
   box-sizing: border-box;
 
   /* Auto layout */
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 24px 32px;
   gap: 8px;
 
-  width: 1152px;
+  width: 100%;
   height: 76px;
 
   /* Gray/200 */
@@ -30,4 +28,11 @@ export const LinkContainer = styled.p`
   flex: none;
   order: 0;
   flex-grow: 1;
+`;
+
+export const HoverEffectStyle = styled.div`
+  p:hover {
+    background: #d0d5dd;
+    /* background: #eaecf0; */
+  }
 `;
