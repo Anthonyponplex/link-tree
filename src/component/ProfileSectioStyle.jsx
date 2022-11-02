@@ -42,21 +42,28 @@ profile__img
 
   #icon {
     visibility: hidden;
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0px;
+
     width: 30px;
     height: 30px;
-    position: absolute;
-    left: 32%;
-    top: 60%;
+
+    margin-top: 3.5%;
+    margin-left: 2%;
+
     background: url(.jpg);
+    border-radius: 275px;
+
     /* Inside auto layout */
+
     flex: none;
     order: 0;
     flex-grow: 0;
+    z-index: 0;
     /* z-index: 2000; */
   }
   &:hover #icon {
@@ -85,8 +92,8 @@ export const NameTag = styled.span`
 `;
 
 export const ShareButton = styled.button`
-  border: 2px dotted lightgray;
-  background-color: transparent;
+  /* border: 2px dotted lightgray; */
+  /* background-color: transparent; */
   border-radius: 100%;
   height: 40px;
   width: 40px;

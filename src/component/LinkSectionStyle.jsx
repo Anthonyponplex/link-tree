@@ -35,4 +35,7 @@ export const HoverEffectStyle = styled.div`
     background: #d0d5dd;
     /* background: #eaecf0; */
   }
+  a {
+    text-decoration: none;
+  }
 `;
